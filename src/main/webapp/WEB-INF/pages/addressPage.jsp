@@ -9,7 +9,7 @@
 			<td>${address.id }</td>
 			<td>${address.country}</td>
 			<td>${address.city}</td>
-			<td>${ address.street}</td>
+			<td>${address.street}</td>
 			<!-- close row -->
 		</tr>
 		<!-- close the loop -->
