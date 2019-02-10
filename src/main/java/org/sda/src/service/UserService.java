@@ -5,7 +5,9 @@ import java.util.List;
 
 import org.sda.src.model.Address;
 import org.sda.src.model.User;
+import org.springframework.stereotype.Service;
 
+@Service(value="userService")
 public class UserService {
 
 	public User getUserById(int id) {

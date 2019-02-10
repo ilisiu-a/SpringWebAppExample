@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<context:component-scan
-		base-package="org.sda.src.springwebappexample.controller" />
+		base-package="org.sda.src.springwebappexample.controller,org.sda.src.service " />
 	<mvc:annotation-driven />
 
 	<bean
